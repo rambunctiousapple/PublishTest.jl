@@ -1,6 +1,3 @@
-# JuliaProgrammingLanguage.jl
-
-
 <table>
 <thead>
   <tr>
@@ -19,13 +16,15 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/rambunctiousapple/JuliaProgrammingLanguage.jl/actions/workflows/CI.yml">
-        <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Publish action">
+      <a href="https://github.com/rambunctiousapple/PublishTest.jl/actions/workflows/Publish.yml">
+        <img src="https://github.com/rambunctiousapple/PublishTest.jl/workflows/Publish/badge.svg" alt="Publish action">
       </a>
     </td>
   </tr>
 </tbody>
 </table>
+
+# JuliaProgrammingLanguage.jl
 
 You read about this amazing new programming language, Julia, that is interactive like Python but compiles to efficient code like C. You wrote your first Julia program and benchmarked it
 {:cell}
