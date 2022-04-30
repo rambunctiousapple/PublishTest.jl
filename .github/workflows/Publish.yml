@@ -22,7 +22,7 @@ jobs:
       - name: Build and deploy
         run: |
           cd gh-pages
-          julia --project=.. -e 'using Publish, USER; deploy(USER; root="/USER.jl", label="dev")'
+          julia --project=.. -e 'using Publish, PackageTest; deploy(PackageTest; root="rambunctiousapple.github.io/PackageTest.jl", label="dev")'
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
