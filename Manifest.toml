@@ -596,7 +596,7 @@ uuid = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 
 [[deps.Publish]]
 deps = ["Base64", "CommonMark", "DataStructures", "FilePathsBase", "FileTrees", "HTTP", "IOCapture", "IterTools", "JSON", "LiveServer", "Logging", "Mustache", "Pkg", "PrettyTables", "RelocatableFolders", "Requires", "TOML", "Tectonic"]
-path = "../Publish.jl"
+git-tree-sha1 = "62cf3ace5fba98cd1f0acad22bbdcb1c320df654"
 uuid = "f065f642-d108-4f50-8aa5-6749150a895a"
 version = "0.10.0"
 

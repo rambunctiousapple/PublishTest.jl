@@ -16,6 +16,8 @@ jobs:
           path: gh-pages
       - uses: julia-actions/setup-julia@latest
         with:
+        # make sure to change this version to match the version of Julia you are building your project with. Otherwise the dependencies in your local Project.toml
+        # may lead to unsatisfiable dependeny constraints when your package is built on Github.
           version: '1.7'
       - name: Install dependencies
         run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
