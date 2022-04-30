@@ -1,5 +1,4 @@
-  * [Introduction](README.md)
-  * [Developer Docs](docs/intro.md)
+  * [Introduction](docs/intro.md)
   * [Dev](docs/dev.md)
   * [Principles](docs/principles.md)
   * [Projects](docs/projects.md)
