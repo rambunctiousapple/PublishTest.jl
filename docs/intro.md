@@ -38,3 +38,12 @@ gr()  #if don't specify a backend it defaults to something that uses a qt plugin
 plot(rand(10),rand(10))
 # =>
 ```
+{:cell}
+```julia
+using Term
+println(@green "this is green")
+println(@blue "and this is blue")
+print("\n")
+println(@bold "this is bold")
+println(@underline "and this is underlined")
+```

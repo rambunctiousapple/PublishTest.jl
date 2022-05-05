@@ -10,8 +10,6 @@
     font-size: 62.5%;
 }
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.044/juliamono.css");
-
 html {
     font-family: "Open Sans", sans-serif;
     text-size-adjust: none;
@@ -28,7 +26,7 @@ body {
 }
 
 code {
-    font-family: JuliaMono, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+    font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.875em;
 }
 
